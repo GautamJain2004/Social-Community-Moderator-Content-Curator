@@ -5,7 +5,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
-app.use('/api/auth', require('./routes/auth'));
+app.use('/api/auth', require('./Routes/auth'));
 
 // Initialize Express app
 const app = express();
